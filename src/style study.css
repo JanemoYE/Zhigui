@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?uy7w7m');
+    src:  url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
+      url('fonts/icomoon.woff?uy7w7m') format('woff'),
+      url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#f5f5f5;
+    font-family: 'Microsoft YaHei',Arial, Helvetica, sans-serif;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img{
+    border: 0;
+    vertical-align: middle;
+}
+
+button{
+    cursor:pointer;
+}
+
+.header {
+    height: 70px;
+    background-color: #f5f5f5;
+    margin: 30px auto;
+}
+
+.logo{
+    float: left;
+    width: 184px;
+    height: 70px;
+    border-top: none;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+    border-top: 4px solid lightsalmon;
+    border-bottom: 2px solid #edeef0;
+    line-height: 70px;
+    
+}
+
+.nav li {
+    float: left;
+    margin:0 25px;
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 0 15px;
+    height: 69px;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.nav li a:hover{
+    color: lightsalmon;
+}
+
+.nav span{
+    display: inline-block;
+    font-family: 'icomoon';
+    font-size: large;
+}
+
+.search{
+    top:10px;
+    left: 400px;
+    width: 500px;
+    height: 36px;
+    border: 3px solid lightsalmon;
+}
+
+.search input{
+    float: left;
+    width: 423px;
+    height: 31px;
+    padding-left: 30px;
+    border: none;
+}
+
+.search button{
+    float: left;
+    width:71px;
+    height: 31px;
+    border: none;
+    background-color:lightsalmon;
+    color:white;
+    font-weight: 600;
+}
+
+.main {
+    margin-top: 10px;
+    width: 1200px;
+    height: 225px;
+    background-color: rgb(248, 248, 248);
+    border-bottom: 3px solid lightsalmon;
+}
+
+.rank{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.type,
+.place,.money{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.main span{
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+    border: none;
+    border-radius: 25% 0% 25% 25%;
+    background-color: rgb(127, 127, 140);
+    color: rgb(247, 255, 255);
+}
+.main .rank .hot,
+.main .type .typemath,.main .place .face,.main .money .low{
+    padding-left: 30px;
+}
+
+.main a{
+    padding-right: 15px;
+    color: rgb(127, 127, 140);
+}
+
+.main a:hover{
+    color: lightsalmon;
+}
+
+.cata {
+    float:left;
+    text-align: center;
+}
+
+.cata a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 36px;
+    color: black;
+}
+
+.cata .prev,
+.cata .next {
+    width: 85px;
+
+}
+
+.cata .current,
+.cata .elp {
+    border: none;
+}
+
+.cata input{
+    width: 45px;
+    height: 34px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.cata button{
+    width: 45px;
+    height: 34px;
+    border: 1px solid #ccc;
+    outline: none;
+}
