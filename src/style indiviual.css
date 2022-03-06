@@ -87,17 +87,107 @@ button{
     font-size: large;
 }
 
-.container {
-    align-items: start;
-    display: flex;
+.media {
+    float: left;
+    width: 400px;
+    height: 350px;
+    border: 2px solid lightgray;
+    background-color: rgb(255, 255, 255);
 }
 
-.container__media {
-    margin-right: 16px;
-
-    width: 200px;
+.media .my__image {
+    display: inline-block;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.container__content {
-    flex: 1;
+.mediabody {
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.information{
+    border-bottom: 2px solid lightgray;
+}
+
+h5{
+    font-size: 1.25rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;}
+
+.p1, 
+.p2{
+    margin-bottom: .8rem!important;
+}
+p {
+    display: block;
+    margin-top: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+
+.mediatask{
+    background-color: rgb(248, 249, 250);
+}
+.tasking, .tasked, .earned{
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tasking h2{
+    color: orange;
+}
+
+.earned h2{
+    color:lightcoral;
+}
+
+.details{
+    display: inline-block;
+    height:350px;
+    width: 700px;
+    border: 2px solid lightgray;
+}
+
+.mytask, .accepttask{
+    height: 150px;
+    width: 650x;
+    margin: 10px;
+    border: 2px solid lightgray;
+    background-color: rgb(248, 249, 250);}
+
+.details .accepttask{
+    height: 155px;
+    margin-top: 15px;
+}
+.mytask a, .accepttask a{
+    margin-left: 30px;
+    font-size: large;
+    font-weight: 700;
+    color: #4c4c4c;
+}
+
+.details button{
+    margin-top:70px;
+    margin-left:600px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.nav{
+    margin-bottom: 70px;
 }

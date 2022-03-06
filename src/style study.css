@@ -158,6 +158,26 @@ button{
     color: lightsalmon;
 }
 
+.list th{
+    height: 40px;
+    font-size: large;
+    font-weight: 700;
+}
+table a{
+    color: #333;
+}
+
+table a:hover{
+    color: lightsalmon;
+}
+
+table{
+    width: 1200px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .cata {
     float:left;
     text-align: center;
