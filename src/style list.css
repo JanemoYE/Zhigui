@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?uy7w7m');
+    src:  url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
+      url('fonts/icomoon.woff?uy7w7m') format('woff'),
+      url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 70px;
+    background-color: #f5f5f5;
+    margin: 30px auto;
+}
+
+.logo{
+    float: left;
+    width: 184px;
+    height: 70px;
+    border-top: none;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+    border-top: 4px solid lightsalmon;
+    border-bottom: 2px solid #edeef0;
+    line-height: 70px;
+    
+}
+
+.nav li {
+    float: left;
+    margin:0 25px;
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 0 15px;
+    height: 69px;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.nav li a:hover{
+    color: lightsalmon;
+}
+
+.nav span{
+    display: inline-block;
+    font-family: 'icomoon';
+    font-size: large;
+}
+
+.avatar {
+    float: right;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+
+.avatar__image {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.avatar a {
+    font-size: small;
+    color: #333;
+    margin-left: 6px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pagi {
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#app {
+    border-top: 3px solid lightsalmon;
+    margin-left: 30px;
+    margin-right: 30px;
+}
