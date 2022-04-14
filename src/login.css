@@ -16,6 +16,12 @@ a {
     font-size: 0.8rem;
 }
 
+.all {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
 .box {
     display: flex;
     justify-content: center;
