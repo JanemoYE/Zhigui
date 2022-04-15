@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?uy7w7m');
-    src:  url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
-      url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
-      url('fonts/icomoon.woff?uy7w7m') format('woff'),
-      url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
+    src: url('fonts/icomoon.eot?uy7w7m');
+    src: url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
+        url('fonts/icomoon.woff?uy7w7m') format('woff'),
+        url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
+}
 
 * {
     margin: 0;
@@ -16,8 +16,8 @@
 }
 
 body {
-    background-color:#f5f5f5;
-    font-family: 'Microsoft YaHei',Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
 
 .w {
@@ -25,21 +25,21 @@ body {
     margin: auto;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.img{
+.img {
     border: 0;
     vertical-align: middle;
 }
 
-button{
-    cursor:pointer;
+button {
+    cursor: pointer;
 }
 
 .header {
@@ -48,7 +48,7 @@ button{
     margin: 30px auto;
 }
 
-.logo{
+.logo {
     float: left;
     width: 184px;
     height: 70px;
@@ -57,16 +57,16 @@ button{
 
 .nav {
     float: left;
-    margin-left: 60px;
+    margin-left: 120px;
     border-top: 4px solid lightsalmon;
     border-bottom: 2px solid #edeef0;
     line-height: 70px;
-    
+
 }
 
 .nav li {
     float: left;
-    margin:0 25px;
+    margin: 0 30px;
 }
 
 .nav li a {
@@ -77,19 +77,19 @@ button{
     color: #4c4c4c;
 }
 
-.nav li a:hover{
+.nav li a:hover {
     color: lightsalmon;
 }
 
-.nav span{
+.nav span {
     display: inline-block;
     font-family: 'icomoon';
     font-size: large;
 }
 
-.banner{
+.banner {
     height: 420px;
-    background:url(../图片/春节.jpg)
+    background: url(../图片/春节.jpg)
 }
 
 .banner .w {
@@ -112,7 +112,7 @@ button{
 }
 
 .banner .w a:hover {
-    background-color:lightsalmon
+    background-color: lightsalmon
 }
 
 .avatar {
@@ -128,53 +128,56 @@ button{
     width: 100%;
 }
 
-.avatar a{
+.avatar a {
     font-size: small;
     color: #333;
     margin-left: 6px;
 }
 
-.recommend{
+.recommend {
     float: left;
     margin-left: 160px;
 }
-.recommend ul{
+
+.recommend ul {
     float: left;
 }
-.recommend li{
+
+.recommend li {
     float: left;
-    width:300px;
+    width: 300px;
     height: 150px;
-    border:2px solid #4c4c4c;
-    margin-right:80px;
+    border: 2px solid #4c4c4c;
+    margin-right: 80px;
     border-radius: 5%;
 }
-.connect a{
+
+.connect a {
     display: block;
-    padding:20px 35px;
+    padding: 20px 35px;
     font-size: 20px;
     font-weight: 700;
     color: black;
 }
 
-.recommend li:hover{
+.recommend li:hover {
     box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
 }
 
-.recommend h4{
+.recommend h4 {
     display: block;
-    padding:12px 35px;
+    padding: 12px 35px;
 }
 
-.recommend p{
+.recommend p {
     display: block;
-    padding:5px 35px;
+    padding: 5px 35px;
     color: #4c4c4c;
 }
 
-.more a{
+.more a {
     display: block;
-    float:right;
+    float: right;
     font-size: 14px;
     font-weight: 400;
     border: 1px solid #b0b0b0;
@@ -189,7 +192,8 @@ button{
 }
 
 .box,
-.box2,.box3{
+.box2,
+.box3 {
     float: left;
     width: 285px;
     height: 415px;
@@ -198,7 +202,9 @@ button{
 }
 
 .number1,
-.number2,.number3,.number4{
+.number2,
+.number3,
+.number4 {
     font-size: 12px;
     color: #b0b0b0;
     margin-top: 60px;
@@ -213,56 +219,68 @@ button{
 }
 
 .box:hover,
-.box2:hover,.box3:hover,.box4:hover {
+.box2:hover,
+.box3:hover,
+.box4:hover {
     box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
     transform: translate(-5px);
 }
 
 .box img,
-.box2 img,.box3 img,.box4 img {
+.box2 img,
+.box3 img,
+.box4 img {
     width: 100%;
     margin-bottom: 30px;
 }
 
-.box a, 
-.box2 a,.box3 a,.box4 a { 
+.box a,
+.box2 a,
+.box3 a,
+.box4 a {
     font-size: 20px;
     padding: 0 28px;
     text-decoration: none;
     color: black;
 }
 
-.box .content1, 
-.box2 .content2,.box3 .content3,.box4 .content4 {
+.box .content1,
+.box2 .content2,
+.box3 .content3,
+.box4 .content4 {
     font-size: 14px;
     padding: 0 28px;
     color: darkgrey;
 }
-.amusement{
+
+.amusement {
     float: left;
     margin-left: 160px;
     height: 500px;
-    margin: 0px 0px 100px 160px; 
+    margin: 0px 0px 100px 160px;
 }
 
 .amusement .box5,
-.box6,.box7{
-    float:left;
+.box6,
+.box7 {
+    float: left;
     width: 285px;
     height: 415px;
     background-color: rgb(255, 255, 255);
     margin-right: 20px;
 }
 
-.box8{
+.box8 {
     float: left;
     width: 285px;
     height: 415px;
     background-color: rgb(255, 255, 255);
 }
 
-.box5 a, 
-.box6 a,.box7 a,.box8 a{ 
+.box5 a,
+.box6 a,
+.box7 a,
+.box8 a {
     font-size: 20px;
     padding: 0 28px;
     text-decoration: none;
@@ -270,57 +288,66 @@ button{
 }
 
 .box5:hover,
-.box6:hover,.box7:hover,.box8:hover {
+.box6:hover,
+.box7:hover,
+.box8:hover {
     box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
     transform: translate(-5px);
 }
+
 .box5 img,
-.box6 img,.box7 img,.box8 img{
+.box6 img,
+.box7 img,
+.box8 img {
     width: 100%;
     margin-bottom: 30px;
 }
 
 .sport,
-.game,.travel,.eat{
+.game,
+.travel,
+.eat {
     font-size: 14px;
     padding: 0 28px;
     color: darkgrey;
 }
 
-.travelers, 
-.gamers,.eaters,.sporters{
+.travelers,
+.gamers,
+.eaters,
+.sporters {
     font-size: 12px;
     color: #b0b0b0;
     margin-top: 60px;
     padding: 0 28px;
 }
 
-.recommend h2{
+.recommend h2 {
     margin: 50px 550px;
 }
 
 .study h2,
-.amusement h2{
+.amusement h2 {
     margin: 50px 560px;
 }
 
-.footer{
+.footer {
     float: left;
-    height:215px;
-    width:100%;
+    height: 215px;
+    width: 100%;
 }
 
-.footer .w{
-    border-top:1px solid lightgray;
+.footer .w {
+    border-top: 1px solid lightgray;
     margin-top: 35px;
 }
 
-.links dl{
+.links dl {
     float: right;
     margin-left: 100px;
 }
 
-.links dl dt{
+.links dl dt {
     font-size: 16px;
     color: #333;
     margin-bottom: 5px;
@@ -328,7 +355,7 @@ button{
 
 .links a {
     font-size: 12px;
-    color:#333;
+    color: #333;
 }
 
 #pointer_box {

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?uy7w7m');
-    src:  url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
-      url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
-      url('fonts/icomoon.woff?uy7w7m') format('woff'),
-      url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
+    src: url('fonts/icomoon.eot?uy7w7m');
+    src: url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
+        url('fonts/icomoon.woff?uy7w7m') format('woff'),
+        url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -21,7 +21,7 @@ body {
     margin: 30px auto;
 }
 
-.logo{
+.logo {
     float: left;
     width: 184px;
     height: 70px;
@@ -30,16 +30,16 @@ body {
 
 .nav {
     float: left;
-    margin-left: 60px;
+    margin-left: 120px;
     border-top: 4px solid lightsalmon;
     border-bottom: 2px solid #edeef0;
     line-height: 70px;
-    
+
 }
 
 .nav li {
     float: left;
-    margin:0 25px;
+    margin: 0 30px;
 }
 
 .nav li a {
@@ -50,11 +50,11 @@ body {
     color: #4c4c4c;
 }
 
-.nav li a:hover{
+.nav li a:hover {
     color: lightsalmon;
 }
 
-.nav span{
+.nav span {
     display: inline-block;
     font-family: 'icomoon';
     font-size: large;

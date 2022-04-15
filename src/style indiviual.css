@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?uy7w7m');
-    src:  url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
-      url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
-      url('fonts/icomoon.woff?uy7w7m') format('woff'),
-      url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
+    src: url('fonts/icomoon.eot?uy7w7m');
+    src: url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
+        url('fonts/icomoon.woff?uy7w7m') format('woff'),
+        url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
+}
 
 * {
     margin: 0;
@@ -16,8 +16,8 @@
 }
 
 body {
-    background-color:#f5f5f5;
-    font-family: 'Microsoft YaHei',Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
 
 .w {
@@ -25,21 +25,21 @@ body {
     margin: auto;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.img{
+.img {
     border: 0;
     vertical-align: middle;
 }
 
-button{
-    cursor:pointer;
+button {
+    cursor: pointer;
 }
 
 .header {
@@ -48,7 +48,7 @@ button{
     margin: 30px auto;
 }
 
-.logo{
+.logo {
     float: left;
     width: 184px;
     height: 70px;
@@ -57,16 +57,16 @@ button{
 
 .nav {
     float: left;
-    margin-left: 60px;
+    margin-left: 120px;
     border-top: 4px solid lightsalmon;
     border-bottom: 2px solid #edeef0;
     line-height: 70px;
-    
+
 }
 
 .nav li {
     float: left;
-    margin:0 25px;
+    margin: 0 30px;
 }
 
 .nav li a {
@@ -77,11 +77,11 @@ button{
     color: #4c4c4c;
 }
 
-.nav li a:hover{
+.nav li a:hover {
     color: lightsalmon;
 }
 
-.nav span{
+.nav span {
     display: inline-block;
     font-family: 'icomoon';
     font-size: large;
@@ -109,38 +109,57 @@ button{
     margin-top: 2em;
 }
 
-.information{
+.information {
     border-bottom: 2px solid lightgray;
 }
 
-h5{
+h5 {
     font-size: 1.25rem;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
 }
+
 label {
     display: inline-block;
-    margin-bottom: .5rem;}
-
-.p1, 
-.p2{
-    margin-bottom: .8rem!important;
+    margin-bottom: .5rem;
 }
+
+.p1,
+.p2 {
+    margin-bottom: .8rem !important;
+}
+
 p {
     display: block;
     margin-top: 0;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;}
+    margin-inline-end: 0px;
+}
 
-.mediatask{
+.mediatask {
     background-color: rgb(248, 249, 250);
 }
-.tasking, .tasked, .earned{
+
+.tasking,
+.tasked,
+.earned {
     float: left;
     padding-right: 25px;
     padding-left: 25px;
@@ -148,46 +167,50 @@ p {
     margin-top: 50px;
 }
 
-.tasking h2{
+.tasking h2 {
     color: orange;
 }
 
-.earned h2{
-    color:lightcoral;
+.earned h2 {
+    color: lightcoral;
 }
 
-.details{
+.details {
     display: inline-block;
-    height:350px;
+    height: 350px;
     width: 700px;
     border: 2px solid lightgray;
 }
 
-.mytask, .accepttask{
+.mytask,
+.accepttask {
     height: 150px;
     width: 650x;
     margin: 10px;
     border: 2px solid lightgray;
-    background-color: rgb(248, 249, 250);}
+    background-color: rgb(248, 249, 250);
+}
 
-.details .accepttask{
+.details .accepttask {
     height: 155px;
     margin-top: 15px;
 }
-.mytask a, .accepttask a{
+
+.mytask a,
+.accepttask a {
     margin-left: 30px;
     font-size: large;
     font-weight: 700;
     color: #4c4c4c;
 }
 
-.details button{
-    margin-top:70px;
-    margin-left:600px;
+.details button {
+    margin-top: 70px;
+    margin-left: 600px;
     font-size: medium;
     font-weight: 400;
 }
 
-.nav{
+.nav {
     margin-bottom: 70px;
 }
