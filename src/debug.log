@@ -9,3 +9,4 @@
 [0410/131142.652:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
 [0410/134257.869:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
 [0411/154647.000:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0415/173220.590:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
