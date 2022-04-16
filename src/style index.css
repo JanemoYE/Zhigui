@@ -89,11 +89,10 @@ button{
 
 .banner{
     height: 420px;
-    background:url(../图片/春节.jpg)
 }
 
 .banner .w {
-    height: 421px;
+    height: 500px;
     margin-left: 120px;
 }
 

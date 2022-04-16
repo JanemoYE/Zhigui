@@ -11,3 +11,9 @@
 [0411/154647.000:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
 [0415/173220.590:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
 [0415/194924.682:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0416/112525.211:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0416/153018.614:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0416/153528.137:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0416/153645.628:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0416/153653.787:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0416/153821.225:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event

@@ -8,10 +8,14 @@
     <title>首页-纸贵|大学生赚钱新模式</title>
     <link rel="stylesheet" href="style index.css">
     <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.zhimg.com/element-ui/lib/theme-chalk/index.css">
 </head>
 
 <body>
-    <script src="myJS.js"></script>
+    <!--- >
+        <script src="myJS.js"></script>
+    <!-->
+    <div id="app">
     <div class="header w">
         <div class="logo">
             <img src="../图片/images/logo.png" alt="">
@@ -32,6 +36,13 @@
         </div>
     </div>
     <div class="banner ">
+        <!---- 这里是轮播图的组件>  <!-->
+        <el-carousel :interval="5000" arrow="always">
+            <el-carousel-item v-for="img in imgs" :key="img">
+              <img :src="img" alt="">
+            </el-carousel-item>
+          </el-carousel>
+      <!---- 这里是轮播图的组件>  <!-->
         <div class="w">
             <a href="#">新春活动 寒假超车 学成有奖</a>
             <a href="#">寒假搞钱合集</a>
@@ -162,6 +173,24 @@
             </div>
         </div>
     </div>
+    </div>
 </body>
 
 </html>
+<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+<script src="https://unpkg.zhimg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data()  {
+            return {
+                imgs: [
+                    '../图片/春节.jpg',
+                    '../图片/电子游戏.jpg',
+                    '../图片/合作.jpg',
+                    '../图片/竞赛.jpg',
+                ]
+            }
+        }
+    })
+</script>
