@@ -10,9 +10,36 @@
     font-display: block;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f5f5f5;
     font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
 }
 
 .header {
@@ -77,14 +104,6 @@ body {
     font-size: small;
     color: #333;
     margin-left: 6px;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 .pagi {

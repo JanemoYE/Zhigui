@@ -88,13 +88,17 @@ button {
 }
 
 .banner {
-    height: 420px;
-    background: url(../图片/春节.jpg)
+    height: 600px;
 }
 
 .banner .w {
-    height: 421px;
+    height: 700px;
     margin-left: 120px;
+}
+
+.banner .el-carousel__container {
+    height: 600px;
+
 }
 
 .banner .w a {
@@ -112,7 +116,7 @@ button {
 }
 
 .banner .w a:hover {
-    background-color: lightsalmon
+    background-color: lightsalmon;
 }
 
 .avatar {
