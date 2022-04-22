@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?uy7w7m');
+    src: url('fonts/icomoon.eot?uy7w7m#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?uy7w7m') format('truetype'),
+        url('fonts/icomoon.woff?uy7w7m') format('woff'),
+        url('fonts/icomoon.svg?uy7w7m#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header {
+    height: 70px;
+    background-color: #f5f5f5;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 184px;
+    height: 70px;
+    border-top: none;
+}
+
+.nav {
+    float: left;
+    margin-left: 120px;
+    border-top: 4px solid lightsalmon;
+    border-bottom: 2px solid #edeef0;
+    line-height: 70px;
+
+}
+
+.nav li {
+    float: left;
+    margin: 0 30px;
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 0 15px;
+    height: 69px;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.nav li a:hover {
+    color: lightsalmon;
+}
+
+.nav span {
+    display: inline-block;
+    font-family: 'icomoon';
+    font-size: large;
+}
+
+.inf {
+    margin: auto;
+    width: 830px;
+    border-left: 1px solid #ddd;
+    background: #fff;
+    min-height: 400px;
+    padding: 20px 20px 0;
+    position: relative;
+    border-top: 1px solid #ddd
+}
+
+.inf-title {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.inf-title-icon {
+    float: left;
+    margin-left: 150px;
+    width: 4px;
+    height: 16px;
+    margin-top: 18px;
+    background-color: lightsalmon;
+    border-radius: 4px;
+}
+
+.inf-title-text {
+    float: left;
+    margin: 15px 0 0 5px;
+    color: lightsalmon;
+    font-size: 14px;
+    cursor: default;
+}
+
+
+.name,
+.email,
+.phone,
+.school,
+.ID {
+    float: left;
+    width: 789px;
+    margin-bottom: 22px;
+}
+
+.user-name,
+.user-email,
+.user-phone,
+.user-ID,
+.user-school {
+    width: 95px;
+    text-align: right;
+    margin-right: 20px;
+    float: left;
+    line-height: 30px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.name-content,
+.phone-content,
+.email-content,
+.ID-content,
+.school-content {
+    line-height: 30px;
+    position: relative;
+    font-size: 14px;
+}
+
+.el-input {
+    float: left;
+    width: 225px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.el-input__inner {
+    float: left;
+    width: 225px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.save {
+    float: left;
+    width: 789px;
+    height: 36px;
+    position: relative;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: lightsalmon !important;
+    border: none;
+}
